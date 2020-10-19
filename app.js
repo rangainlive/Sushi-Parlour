@@ -43,4 +43,4 @@ app.use('/auth', require('./routes/auth'));
 
 app.listen(3000, () => {
     console.log("Server started on Port 3000...");
-})
+});
